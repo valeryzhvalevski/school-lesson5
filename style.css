@@ -199,6 +199,8 @@ footer p {
 
   .cards {
     flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 60px;
   }
 
   .item {
