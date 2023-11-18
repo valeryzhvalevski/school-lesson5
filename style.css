@@ -216,3 +216,60 @@ footer p {
     padding: 3% 2%;
   }
 }
+
+@media screen and (max-width: 576px) {
+  header {
+    height: 86px;
+  }
+
+  .wrapper {
+    padding: 4% 7.5%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .contacts {
+    display: none;
+  }
+
+  h2 {
+    font-size: 39px;
+  }
+
+  .container-main {
+    margin: 4% 7.5%;
+  }
+
+  .container-top p {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .content-main {
+    margin-top: 40px;
+  }
+
+  .content-main p:first-child {
+    font-size: 12.6px;
+  }
+
+  .content-main p:nth-child(2) {
+    font-size: 24px;
+  }
+
+  .cards {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+
+  .wrapper-footer {
+    padding: 4% 7.5%;
+  }
+
+  .wrapper-footer p {
+    font-size: 11.7px;
+  }
+}
